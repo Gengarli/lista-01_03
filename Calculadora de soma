@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+class Main {
+  
+  public static void main(String[] args) {
+     
+     Scanner teclado = new Scanner(System.in);
+     
+     System.out.print("Me informe um número: ");
+     double x = teclado.nextDouble();
+
+     System.out.print("Me informe outro número: ");
+     double y = teclado.nextDouble();
+
+     double z = (x + y);
+    
+     System.out.println("A soma dos números informados é: " + z + "!");
+
+     }
